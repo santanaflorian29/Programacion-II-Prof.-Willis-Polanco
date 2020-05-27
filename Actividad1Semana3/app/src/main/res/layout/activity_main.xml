@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Primera Actividad"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        app:srcCompat="@drawable/unibe"
+
+        />
+
+    <EditText
+        android:id="@+id/nameuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduza su Nombre de Usuario"
+
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/userpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduzca su password"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_gravity="fill_vertical">
+
+
+        <Button
+            android:id="@+id/acep"
+            android:layout_width="111dp"
+            android:layout_height="64dp"
+            android:layout_alignBottom="@id/clear"
+            android:onClick="Validacion_Total"
+            android:text="Aceptar" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="111dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@id/acep"
+            android:layout_toRightOf="@id/acep"
+            android:text="Limpiar"
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:shadowColor="#E30D0D"
+        android:text="By Jhonathan Santana"
+        android:textColor="#B80A0A"
+        android:textSize="24dp"
+        app:autoSizeTextType="uniform" />
+
+
+</LinearLayout>
+
