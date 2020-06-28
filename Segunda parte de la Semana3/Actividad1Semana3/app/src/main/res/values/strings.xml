@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Actividad #1 Semana 3</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="textview" />
+    <string name="map" />
+    <string name="back" />
+</resources>
