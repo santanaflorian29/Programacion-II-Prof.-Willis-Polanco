@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nuh">
+    <fragment
+        android:id="@+id/nuh"
+        android:name="com.example.primerapractica.nuh"
+        android:label="activity_nuh"
+        tools:layout="@layout/activity_newwindows" >
+        <action
+            android:id="@+id/action_nuh_to_nuh2"
+            app:destination="@id/nuh2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nuh2"
+        android:name="com.example.primerapractica.nuh2"
+        android:label="pantallanuh2"
+        tools:layout="@layout/activity_newwindows2">
+        <action
+            android:id="@+id/action_nuh2_to_nuh"
+            app:destination="@id/nuh" />
+    </fragment>
+</navigation>

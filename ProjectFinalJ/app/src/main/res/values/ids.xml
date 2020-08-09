@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_newwindows_to_newwindows2" type="id" />
+    <item name="action_newwindows2_to_newwindows" type="id" />
+</resources>
