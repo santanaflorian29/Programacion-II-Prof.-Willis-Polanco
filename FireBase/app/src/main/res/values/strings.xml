@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">My Application</string>
     <string name="title_activity_welcome">Welcome</string>
@@ -13,3 +14,20 @@
     <string name="sign_up">Sign up</string>
     <string name="username">Username</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="i_already_have_an_account">I already have an account!</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+</resources>
+>>>>>>> origin/master
